@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ConsoleApp3</id>
+    <version>1.0.0</version>
+    <authors>ConsoleApp3</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Admin\Desktop\ховно\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.json" target="lib\netcoreapp3.1\ConsoleApp3.runtimeconfig.json" />
+    <file src="C:\Users\Admin\Desktop\ховно\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.dll" target="lib\netcoreapp3.1\ConsoleApp3.dll" />
+  </files>
+</package>
